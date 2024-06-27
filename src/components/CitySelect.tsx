@@ -1,5 +1,7 @@
 import React from 'react';
-import { MenuItem, FormControl, Select } from '@mui/material';
+import Select  from '@mui/material/Select';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
 import citiesData from '../utils/cities.json';
 import { Controller } from 'react-hook-form';
 import { CitySelectProps } from '../interface/types';

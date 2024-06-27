@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { Button, Typography, Box } from '@mui/material';
+import Box  from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import CitySelect from './CitySelect';
 import WeatherDisplay from './WeatherDisplay';
